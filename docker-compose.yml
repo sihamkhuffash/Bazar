@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  
+  order:
+    image: siham-ord2
+    ports:
+      - "4022:4002"  
+  catalog:
+    image: siham-ord2
+    ports:
+      - "4022:4002"  

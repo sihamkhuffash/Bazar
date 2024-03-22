@@ -3,9 +3,9 @@ version: '3.8'
 services:
   
   order:
-    image: siham-ord2
+    image: order-image
     ports:
-      - "4022:4002"  
+      - "4002:4002"  
   catalog:
     image: image-for-catalog
     ports:
